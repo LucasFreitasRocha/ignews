@@ -1,3 +1,4 @@
+import SignInButton from '../SignInButton/SignInButton';
 import styles from './header.module.scss';
 export default function Header() {
   return (
@@ -8,6 +9,7 @@ export default function Header() {
           <a  className={styles.active} href="">Home</a>
           <a href="">Posts</a>
         </nav>
+        <SignInButton />
       </div>
     </header>
   )
